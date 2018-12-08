@@ -4,7 +4,7 @@
   "description": "test ====",
   "main": "big.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,9 @@
   "homepage": "https://github.com/rahilwazir/test#readme",
   "dependencies": {
     "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
   }
 }
